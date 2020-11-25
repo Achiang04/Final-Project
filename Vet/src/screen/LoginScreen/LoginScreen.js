@@ -20,7 +20,7 @@ import {useDispatch} from 'react-redux';
 import {loginAction} from '../../redux/Actions/authAction';
 
 export default function LoginScreen({navigation}) {
-  const [email, setEmail] = useState('a');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [alert, setAlert] = useState(false);
   const [message, setMessage] = useState('');
